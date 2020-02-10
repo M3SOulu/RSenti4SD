@@ -45,7 +45,6 @@ Senti4SDFeatures <- function(input, output, read.file=TRUE,
 #'
 #' Load LiblineaR model.
 #'
-#' @param model.filename Rda file where the model is stored.
 #' @return the LiblineaR model.
 #' @export
 Senti4SDModel <- function() {

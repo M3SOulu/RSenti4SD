@@ -1,0 +1,15 @@
+Package: RSenti4SD
+Type: Package
+Title: RSenti4SD
+Version: 0.1.0
+Date: 2020-02-10
+Author: Maëlick Claes <himself@maelick.net>
+Maintainer: Maëlick Claes <himself@maelick.net>
+Description: R functions for calling Senti4SD.
+Depends: R (>= 3.0)
+Imports: utils, data.table, logging, Matrix, stats, LiblineaR
+SystemRequirements: java
+LazyData: true
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.0.2

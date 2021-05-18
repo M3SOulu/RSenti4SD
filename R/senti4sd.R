@@ -82,7 +82,7 @@ Senti4SDPredict <- function(model, features) {
 Senti4SDSingle <- function(text, model, predict=TRUE, sparse.features=TRUE,
                            tmpdir=getOption("senti4sd.tmpdir", tempdir())) {
   text.file <- tempfile(tmpdir=tmpdir)
-  fwrite(data.table(gsub("\n", " ", text)), text.file,
+  fwrite(data.table(gsub("\\s+", " ", text)), text.file,
          row.names=FALSE, col.names=FALSE)
   features <- Senti4SDFeatures(text.file, tempfile(tmpdir=tmpdir), TRUE, TRUE)
   file.remove(text.file)

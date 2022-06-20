@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/M3SOulu/RSenti4sd.svg?branch=master)](https://travis-ci.org/M3SOulu/RSenti4sd)
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/M3SOulu/RSenti4SD/workflows/R-CMD-check/badge.svg)](https://github.com/M3SOulu/RSenti4SD/actions)
+<!-- badges: end -->
 
 # RSenti4SD
 
